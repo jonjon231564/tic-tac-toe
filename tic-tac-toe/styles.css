@@ -1,0 +1,22 @@
+
+#square-container {
+    display: grid;
+    grid-template-columns: repeat(3, 10vh); 
+    grid-template-rows: repeat(3, 10vh); 
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border: 1px solid black; 
+    
+}
+
+button.active {
+    background-color: #FF5733; /* Red */
+}
+
+
+
